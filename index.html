@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="snk-header">
+    <div class="snk-menu-container">
+      <img class="snk-menu-logo" src="images/logo.svg" alt="Logo Sneakers">
+      <div>
+        <div>
+          <nav class="snk-nav-mobile">
+            <a id="snk-menu-link" href="#"><span id="snk-menu-burger"></span></a>
+            <div class="snk-burger-container" id="snk-burger-container">
+              <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav class="snk-nav-desktop">
+            <ul class="snk-menu-list">
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <img class="snk-header-cart" src="images/icon-cart.svg" alt="">
+          <img class="snk-header-profile" src="images/image-avatar.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="snk-main snk-dp-flex snk-space-between">
+    <section>
+      <div>
+        <img class="snk-product-image" src="images/image-product-1.jpg" alt="">
+        <div class="snk-dp-flex snk-space-between snk-thumbnail-container">
+          <img class="snk-product-thumbnail" src="images/image-product-1-thumbnail.jpg" alt="">
+          <img class="snk-product-thumbnail" src="images/image-product-2-thumbnail.jpg" alt="">
+          <img class="snk-product-thumbnail" src="images/image-product-3-thumbnail.jpg" alt="">
+          <img class="snk-product-thumbnail" src="images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="snk-text-section">
+      <div class="snk-text-container">
+        <h1>Sneaker Company</h1>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p class="snk-product-description">These low-profile sneakers are your perfect casual wear companion. Featuring
+          a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div class="snk-price-container snk-dp-flex">
+          <h3>$125.00</h3>
+          <span class="snk-percentage">50%</span>
+        </div>
+        <span class="snk-price-initial">$250.00</span>
+        <div class="snk-button-container snk-dp-flex">
+          <div class="snk-dp-flex">
+            <button class="snk-button-value snk-value-left">-</button>
+            <input type="text" value="0">
+            <button class="snk-button-value snk-value-right">+</button>
+          </div>
+          <div class="snk-addcart-container">
+            <a class="snk-addcart-button" href=""><img src="images/icon-cart.svg" alt="">  Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+
+</html>
